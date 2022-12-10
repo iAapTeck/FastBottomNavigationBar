@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/first_fragment"
+        android:title=""
+        android:contentDescription="@string/menu_dashboard"
+        android:icon="@drawable/ic_dashboard_white_24dp"/>
+
+    <item
+        android:id="@+id/second_fragment"
+        android:title=""
+        android:contentDescription="@string/menu_leaderboard"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/third_fragment"
+        android:title=""
+        android:contentDescription="@string/menu_store"
+        android:icon="@drawable/ic_news"/>
+
+    <item
+        android:id="@+id/fourth_fragment"
+        android:title=""
+        android:contentDescription="@string/menu_profile"
+        android:icon="@drawable/ic_fund"/>
+
+    <item
+        android:id="@+id/fifth_fragment"
+        android:title=""
+        android:contentDescription="@string/menu_profile"
+        android:icon="@drawable/ic_team"/>
+
+    <item
+        android:id="@+id/sixth_fragment"
+        android:title=""
+        android:contentDescription="@string/menu_profile"
+        android:icon="@drawable/ic_account"/>
+
+</menu>

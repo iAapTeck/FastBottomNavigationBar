@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/first_fragment">
+
+    <fragment
+        android:id="@+id/first_fragment"
+        android:name="me.iaapteck.fastbottomnavigationbar.FirstFragment"
+        android:label="1st"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragment_to_secondFragment"
+            app:destination="@id/second_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/second_fragment"
+        android:name="me.iaapteck.fastbottomnavigationbar.SecondFragment"
+        android:label="2nd"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_secondFragment_to_thirdFragment"
+            app:destination="@id/third_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/third_fragment"
+        android:name="me.iaapteck.fastbottomnavigationbar.ThirdFragment"
+        android:label="3rd"
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/action_thirdFragment_to_fourthFragment"
+            app:destination="@id/fourth_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fourth_fragment"
+        android:name="me.iaapteck.fastbottomnavigationbar.FourthFragment"
+        android:label="4th"
+        tools:layout="@layout/fragment_fourth" >
+        <action
+            android:id="@+id/action_fourthFragment_to_fifthFragment"
+            app:destination="@id/fifth_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fifth_fragment"
+        android:name="me.iaapteck.fastbottomnavigationbar.FifthFragment"
+        android:label="5th"
+        tools:layout="@layout/fragment_fifth" >
+        <action
+            android:id="@+id/action_fifthFragment_to_sixthFragment"
+            app:destination="@id/sixth_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sixth_fragment"
+        android:name="me.iaapteck.fastbottomnavigationbar.SixthFragment"
+        android:label="6th"
+        tools:layout="@layout/fragment_sixth" />
+</navigation>
